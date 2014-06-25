@@ -41,7 +41,7 @@ namespace guessthatnumber
                 }
                 if (input1 == randomNumber)
                 {
-                    Console.WriteLine(" you are right on and it too you" + count + "times!!");
+                    Console.WriteLine(" you are right on and it took you" + count + "times!!");
                 }
             }
 	

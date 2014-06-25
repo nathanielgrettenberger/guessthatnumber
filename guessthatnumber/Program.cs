@@ -32,16 +32,17 @@ namespace guessthatnumber
                 if (input1 > randomNumber)
                 {
                     Console.WriteLine(" your too low!");
-
+                    count++;
                 }
                 if (input1 > randomNumber)
                 {
                     Console.WriteLine(" your too high!");
-
+                    count++;
                 }
                 if (input1 == randomNumber)
                 {
                     Console.WriteLine(" you are right on and it took you" + count + "times!!");
+                    count++;
                 }
             }
 	
